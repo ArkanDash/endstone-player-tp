@@ -1,0 +1,3 @@
+# Teleport Settings
+
+timeout_timer = 90 # Teleport request timeout if player hasn't responded the request. (Seconds)

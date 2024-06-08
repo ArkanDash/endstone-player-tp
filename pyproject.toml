@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "endstone-player-tp"
+version = "0.1.0"
+dependencies = []
+authors = [
+    { name = "ArkanDash", email = "suckgamer0@gmail.com" },
+]
+description = "A simple player teleport plugin for Endstone servers"
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["endstone", "plugin", "discord"]
+
+[project.urls]
+Homepage = "https://github.com/ArkanDash/endstone-player-tp"
+
+[project.entry-points."endstone"]
+player_tp = "endstone_player_tp:PlayerTP"
