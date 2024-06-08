@@ -8,12 +8,19 @@ Consider using this on [development wheel of endstone](https://github.com/Endsto
 
 ## Commands
 `/tpa <player>`
+
 Request a teleport to specified player.
+
 `/tpaccept`
+
 Accept a teleport request.
+
 `/tpdeny`
+
 Deny a teleport request.
+
 `/tpcancel`
+
 Cancel your current teleport request.
 
 ## Features
