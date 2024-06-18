@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "endstone-player-tp"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = []
 authors = [
     { name = "ArkanDash", email = "suckgamer0@gmail.com" },

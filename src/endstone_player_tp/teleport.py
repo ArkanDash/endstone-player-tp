@@ -13,7 +13,7 @@ class PlayerTP(Plugin):
     commands = {
         "tpa": {
             "description": "Request a teleport to specified player.",
-            "usages": ["/tpa [target: player]"],
+            "usages": ["/tpa <target: player>"],
             "permissions": ["playertp.command.tpa"],
         },
         "tpaccept": {

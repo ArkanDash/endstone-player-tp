@@ -2,9 +2,8 @@
 
 Simple player teleportation with confirmation for survival Endstone servers.
 
-### Warning
-This was developed using 4.7 endstone dev build.
-Consider using this on [development wheel of endstone](https://github.com/EndstoneMC/endstone/actions/workflows/wheel.yml)
+## Requirements
+- [Endstone 4.7 build or higher](https://github.com/EndstoneMC/endstone)
 
 ## Commands
 `/tpa <player>`
@@ -23,11 +22,14 @@ Deny a teleport request.
 
 Cancel your current teleport request.
 
+## Configuration
+
+- timeout_timer
+  
+  Teleport request timeout if player hasn't responded the request. (Seconds)
+
 ## Features
 - [x] Player teleport confirmation
 - [x] Player request teleport timeout
 - [ ] Player teleport delay after confirmation agreed
 - [ ] Teleport and confirmation sounds?
-
-## Requirements
-- [Endstone 4.7 dev build or higher](https://github.com/EndstoneMC/endstone)
